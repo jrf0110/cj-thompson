@@ -1,0 +1,24 @@
+{
+  "name": "cj-thompson",
+  "version": "0.1.0",
+  "authors": [
+    "John Fawcett <jrf0110@gmail.com>"
+  ],
+  "description": "CJ's Site",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v3.0.0",
+    "classie": "~1.0.0",
+    "retina.js": "~1.2.0",
+    "html5shiv": "~3.7.0",
+    "respond": "~1.4.2"
+  }
+}
