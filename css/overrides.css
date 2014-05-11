@@ -41,6 +41,61 @@ body, html {
 }
 
 /**
+ * Make that green more neutral
+ */
+
+a {
+  color: #0085FF;
+}
+
+.gn-menu-main, .gn-menu-main ul {
+  background: #264B34;
+}
+
+.gn-menu-main > li,
+.gn-menu-main > li:last-child {
+  border-color: #3F6646;
+}
+
+.gn-icon-menu::before {
+  box-shadow: 0 3px #264B34, 0 -6px #FFF, 0 -9px #264B34, 0 -12px #FFF;
+}
+
+.no-touch .gn-menu-main a:hover,
+.no-touch .gn-menu li.gn-search-item:hover,
+.no-touch .gn-menu li.gn-search-item:hover a {
+  background: #2C6949;
+}
+
+.no-touch .gn-icon-menu:hover::before,
+.no-touch .gn-icon-menu.gn-selected:hover::before {
+  box-shadow: 0 3px #2C6949, 0 -6px #FFF, 0 -9px #2C6949, 0 -12px #FFF
+}
+
+.gn-icon-menu.gn-selected::before {
+  box-shadow: 0 3px #264B34, 0 -6px #FFF, 0 -9px #264B34, 0 -12px #FFF
+}
+
+.gn-menu-wrapper {
+  border-color: #3F6646;
+  background: transparent;
+}
+.gn-menu {
+  border-color: #3F6646;
+}
+.gn-menu li:not(:first-child), .gn-menu li li {
+  box-shadow: inset 0 1px #3F6646
+}
+
+.btn-theme {
+  background-color: #117E49;
+}
+
+.btn-theme:hover {
+  background-color: #139254;
+}
+
+/**
  * Component.ServicesOffered
  */
 ul.services-offered {
